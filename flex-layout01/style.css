@@ -11,6 +11,7 @@ body {
 
 .sloupec {
   padding: 20px;
+ 
 }
 
 .hlavicka {
@@ -18,15 +19,26 @@ body {
 }
 .hlavni {
   background-color: #f1c40f;
+  flex: 55%;
+  
 }
 .levy {
   background-color: #3498db;
+  order: -1;
+  flex: 25%;
+ 
 }
 .pravy {
   background-color: #e74c3c;
+  flex: 20%;
+  
 }
 .paticka {
   background-color: #9b59b6;
 }
 
 /* ---------------------------------------------------- */
+
+.kontejner {
+  display: flex;
+}
